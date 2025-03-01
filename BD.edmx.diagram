@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="33e09d54710e4241bdd8da4240a4dd8d" Name="Diagram1">
+        <EntityTypeShape EntityType="zavodModel.Customer" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Должности" Width="1.5" PointX="10.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Заказ" Width="1.5" PointX="8" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Зарплата" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.ИнвентаризацияТовара" Width="1.5" PointX="8" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Паспорт" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.ПокупкаТовара" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Поставщик" Width="1.5" PointX="5.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.ПриемНаРаботу" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.ПриемТовара" Width="1.5" PointX="8" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Продукт" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Производство" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Расписание" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Расходники" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Сотрудник" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.СписаниеТовара" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="zavodModel.Увольнение" Width="1.5" PointX="11.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="zavodModel.FK__ПокупкаТо__IDКли__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__Сотрудник__IDДол__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__Заказ__IDПоставщ__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__Инвентари__IDПос__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__ПокупкаТо__IDТов__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__ПриемТова__IDПос__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__Производс__IDТов__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="zavodModel.FK__СписаниеТ__IDТов__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
